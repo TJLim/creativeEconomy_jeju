@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA87CC8F7101FDDCF7492D65 /* Pods_creative_beaconApp_IOS_legacy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644124935C366FC5C85D4FFD /* Pods_creative_beaconApp_IOS_legacy.framework */; };
+		F11A93591EA45872005FB98F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A93581EA45872005FB98F /* TabBarViewController.swift */; };
+		F1C15FB41EA0B01800BE368C /* CommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C15FB31EA0B01800BE368C /* CommonController.swift */; };
+		F1D7BAD01EAF72280036FBC2 /* menu icon_01.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D7BACC1EAF72280036FBC2 /* menu icon_01.png */; };
+		F1D7BAD11EAF72280036FBC2 /* menu icon_02.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D7BACD1EAF72280036FBC2 /* menu icon_02.png */; };
+		F1D7BAD21EAF72280036FBC2 /* menu icon_03.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D7BACE1EAF72280036FBC2 /* menu icon_03.png */; };
+		F1D7BAD31EAF72280036FBC2 /* menu icon_04.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D7BACF1EAF72280036FBC2 /* menu icon_04.png */; };
 		F1FEC69F1E93212C008D1CDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC69E1E93212C008D1CDC /* AppDelegate.swift */; };
 		F1FEC6A11E93212D008D1CDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6A01E93212D008D1CDC /* ViewController.swift */; };
 		F1FEC6A41E93212D008D1CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FEC6A21E93212D008D1CDC /* Main.storyboard */; };
 		F1FEC6A61E93212D008D1CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FEC6A51E93212D008D1CDC /* Assets.xcassets */; };
-		F1FEC6A91E93212D008D1CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FEC6A71E93212D008D1CDC /* LaunchScreen.storyboard */; };
+		F1FEC6B81E9322FF008D1CDC /* CE_WebViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6B71E9322FF008D1CDC /* CE_WebViewController1.swift */; };
+		F1FEC6BA1E933254008D1CDC /* Main_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6B91E933254008D1CDC /* Main_ViewController.swift */; };
+		F1FEC6BC1E933B15008D1CDC /* MappingContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6BB1E933B15008D1CDC /* MappingContentsViewController.swift */; };
+		F1FEC6C11E933C34008D1CDC /* JM_WebViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6BD1E933C34008D1CDC /* JM_WebViewController1.swift */; };
+		F1FEC6C21E933C34008D1CDC /* JM_WebViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6BE1E933C34008D1CDC /* JM_WebViewController2.swift */; };
+		F1FEC6C31E933C34008D1CDC /* JM_WebViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6BF1E933C34008D1CDC /* JM_WebViewController3.swift */; };
+		F1FEC6C41E933C34008D1CDC /* JM_WebViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6C01E933C34008D1CDC /* JM_WebViewController4.swift */; };
+		F1FEC6C81E933C3D008D1CDC /* CE_WebViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6C51E933C3D008D1CDC /* CE_WebViewController2.swift */; };
+		F1FEC6C91E933C3D008D1CDC /* CE_WebViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6C61E933C3D008D1CDC /* CE_WebViewController3.swift */; };
+		F1FEC6CA1E933C3D008D1CDC /* CE_WebViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEC6C71E933C3D008D1CDC /* CE_WebViewController4.swift */; };
+		F1FEC6CE1E934354008D1CDC /* icon in Resources */ = {isa = PBXBuildFile; fileRef = F1FEC6CB1E934354008D1CDC /* icon */; };
+		F1FEC6CF1E934354008D1CDC /* img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1FEC6CC1E934354008D1CDC /* img_1.png */; };
+		F1FEC6D01E934354008D1CDC /* img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1FEC6CD1E934354008D1CDC /* img_2.png */; };
+		F1FEC6D41E9344D1008D1CDC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FEC6D31E9344D1008D1CDC /* Launch Screen.storyboard */; };
+		F1FEC6D61E934594008D1CDC /* KakaoNavi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FEC6D51E934594008D1CDC /* KakaoNavi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A14C43C0DBD70E80376C9C8 /* Pods-creative_beaconApp_IOS_legacy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-creative_beaconApp_IOS_legacy.release.xcconfig"; path = "Pods/Target Support Files/Pods-creative_beaconApp_IOS_legacy/Pods-creative_beaconApp_IOS_legacy.release.xcconfig"; sourceTree = "<group>"; };
+		644124935C366FC5C85D4FFD /* Pods_creative_beaconApp_IOS_legacy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_creative_beaconApp_IOS_legacy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817805418DE04952C10943C5 /* Pods-creative_beaconApp_IOS_legacy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-creative_beaconApp_IOS_legacy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-creative_beaconApp_IOS_legacy/Pods-creative_beaconApp_IOS_legacy.debug.xcconfig"; sourceTree = "<group>"; };
+		F11A93581EA45872005FB98F /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F1C15FB31EA0B01800BE368C /* CommonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonController.swift; sourceTree = "<group>"; };
+		F1D7BACC1EAF72280036FBC2 /* menu icon_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu icon_01.png"; path = "Images/menu icon_01.png"; sourceTree = "<group>"; };
+		F1D7BACD1EAF72280036FBC2 /* menu icon_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu icon_02.png"; path = "Images/menu icon_02.png"; sourceTree = "<group>"; };
+		F1D7BACE1EAF72280036FBC2 /* menu icon_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu icon_03.png"; path = "Images/menu icon_03.png"; sourceTree = "<group>"; };
+		F1D7BACF1EAF72280036FBC2 /* menu icon_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu icon_04.png"; path = "Images/menu icon_04.png"; sourceTree = "<group>"; };
 		F1FEC69B1E93212C008D1CDC /* creative_beaconApp_IOS_legacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = creative_beaconApp_IOS_legacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FEC69E1E93212C008D1CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1FEC6A01E93212D008D1CDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1FEC6A31E93212D008D1CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1FEC6A51E93212D008D1CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1FEC6A81E93212D008D1CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1FEC6AA1E93212D008D1CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FEC6B71E9322FF008D1CDC /* CE_WebViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CE_WebViewController1.swift; sourceTree = "<group>"; };
+		F1FEC6B91E933254008D1CDC /* Main_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_ViewController.swift; sourceTree = "<group>"; };
+		F1FEC6BB1E933B15008D1CDC /* MappingContentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappingContentsViewController.swift; sourceTree = "<group>"; };
+		F1FEC6BD1E933C34008D1CDC /* JM_WebViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JM_WebViewController1.swift; sourceTree = "<group>"; };
+		F1FEC6BE1E933C34008D1CDC /* JM_WebViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JM_WebViewController2.swift; sourceTree = "<group>"; };
+		F1FEC6BF1E933C34008D1CDC /* JM_WebViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JM_WebViewController3.swift; sourceTree = "<group>"; };
+		F1FEC6C01E933C34008D1CDC /* JM_WebViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JM_WebViewController4.swift; sourceTree = "<group>"; };
+		F1FEC6C51E933C3D008D1CDC /* CE_WebViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CE_WebViewController2.swift; sourceTree = "<group>"; };
+		F1FEC6C61E933C3D008D1CDC /* CE_WebViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CE_WebViewController3.swift; sourceTree = "<group>"; };
+		F1FEC6C71E933C3D008D1CDC /* CE_WebViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CE_WebViewController4.swift; sourceTree = "<group>"; };
+		F1FEC6CB1E934354008D1CDC /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = Images/icon; sourceTree = "<group>"; };
+		F1FEC6CC1E934354008D1CDC /* img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_1.png; path = Images/img_1.png; sourceTree = "<group>"; };
+		F1FEC6CD1E934354008D1CDC /* img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_2.png; path = Images/img_2.png; sourceTree = "<group>"; };
+		F1FEC6D31E9344D1008D1CDC /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F1FEC6D51E934594008D1CDC /* KakaoNavi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoNavi.framework; path = creative_beaconApp_IOS_legacy/Frameworks/KakaoNavi.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1FEC6D61E934594008D1CDC /* KakaoNavi.framework in Frameworks */,
+				CA87CC8F7101FDDCF7492D65 /* Pods_creative_beaconApp_IOS_legacy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BCB06F368EF2E15B962961C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEC6D51E934594008D1CDC /* KakaoNavi.framework */,
+				644124935C366FC5C85D4FFD /* Pods_creative_beaconApp_IOS_legacy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24CF0DF8B7501E076F225732 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				817805418DE04952C10943C5 /* Pods-creative_beaconApp_IOS_legacy.debug.xcconfig */,
+				5A14C43C0DBD70E80376C9C8 /* Pods-creative_beaconApp_IOS_legacy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F1FEC6921E93212C008D1CDC = {
 			isa = PBXGroup;
 			children = (
 				F1FEC69D1E93212C008D1CDC /* creative_beaconApp_IOS_legacy */,
 				F1FEC69C1E93212C008D1CDC /* Products */,
+				24CF0DF8B7501E076F225732 /* Pods */,
+				1BCB06F368EF2E15B962961C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +120,89 @@
 		F1FEC69D1E93212C008D1CDC /* creative_beaconApp_IOS_legacy */ = {
 			isa = PBXGroup;
 			children = (
-				F1FEC69E1E93212C008D1CDC /* AppDelegate.swift */,
+				F1FEC6B01E932148008D1CDC /* Swift */,
+				F1FEC6B21E932167008D1CDC /* StoryBoard */,
+				F1FEC6B11E93214F008D1CDC /* Images */,
+				F1FEC6B31E932177008D1CDC /* Object-C */,
 				F1FEC6A01E93212D008D1CDC /* ViewController.swift */,
-				F1FEC6A21E93212D008D1CDC /* Main.storyboard */,
 				F1FEC6A51E93212D008D1CDC /* Assets.xcassets */,
-				F1FEC6A71E93212D008D1CDC /* LaunchScreen.storyboard */,
 				F1FEC6AA1E93212D008D1CDC /* Info.plist */,
 			);
 			path = creative_beaconApp_IOS_legacy;
+			sourceTree = "<group>";
+		};
+		F1FEC6B01E932148008D1CDC /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEC6B61E932190008D1CDC /* COMMON */,
+				F1FEC6B51E93218C008D1CDC /* CE */,
+				F1FEC6B41E932184008D1CDC /* JM */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		F1FEC6B11E93214F008D1CDC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEC6CB1E934354008D1CDC /* icon */,
+				F1FEC6CC1E934354008D1CDC /* img_1.png */,
+				F1FEC6CD1E934354008D1CDC /* img_2.png */,
+				F1D7BACC1EAF72280036FBC2 /* menu icon_01.png */,
+				F1D7BACD1EAF72280036FBC2 /* menu icon_02.png */,
+				F1D7BACE1EAF72280036FBC2 /* menu icon_03.png */,
+				F1D7BACF1EAF72280036FBC2 /* menu icon_04.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F1FEC6B21E932167008D1CDC /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEC6A21E93212D008D1CDC /* Main.storyboard */,
+				F1FEC6D31E9344D1008D1CDC /* Launch Screen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		F1FEC6B31E932177008D1CDC /* Object-C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Object-C";
+			sourceTree = "<group>";
+		};
+		F1FEC6B41E932184008D1CDC /* JM */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEC6BD1E933C34008D1CDC /* JM_WebViewController1.swift */,
+				F1FEC6BE1E933C34008D1CDC /* JM_WebViewController2.swift */,
+				F1FEC6BF1E933C34008D1CDC /* JM_WebViewController3.swift */,
+				F1FEC6C01E933C34008D1CDC /* JM_WebViewController4.swift */,
+			);
+			name = JM;
+			sourceTree = "<group>";
+		};
+		F1FEC6B51E93218C008D1CDC /* CE */ = {
+			isa = PBXGroup;
+			children = (
+				F11A93581EA45872005FB98F /* TabBarViewController.swift */,
+				F1FEC6B71E9322FF008D1CDC /* CE_WebViewController1.swift */,
+				F1FEC6C51E933C3D008D1CDC /* CE_WebViewController2.swift */,
+				F1FEC6C61E933C3D008D1CDC /* CE_WebViewController3.swift */,
+				F1FEC6C71E933C3D008D1CDC /* CE_WebViewController4.swift */,
+			);
+			name = CE;
+			sourceTree = "<group>";
+		};
+		F1FEC6B61E932190008D1CDC /* COMMON */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEC69E1E93212C008D1CDC /* AppDelegate.swift */,
+				F1FEC6BB1E933B15008D1CDC /* MappingContentsViewController.swift */,
+				F1C15FB31EA0B01800BE368C /* CommonController.swift */,
+				F1FEC6B91E933254008D1CDC /* Main_ViewController.swift */,
+			);
+			name = COMMON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1FEC6AD1E93212D008D1CDC /* Build configuration list for PBXNativeTarget "creative_beaconApp_IOS_legacy" */;
 			buildPhases = (
+				EAB1DABE6C1D82D620CF690A /* [CP] Check Pods Manifest.lock */,
 				F1FEC6971E93212C008D1CDC /* Sources */,
 				F1FEC6981E93212C008D1CDC /* Frameworks */,
 				F1FEC6991E93212C008D1CDC /* Resources */,
+				8671FB51030D701E574D03E5 /* [CP] Embed Pods Frameworks */,
+				C94EAC5AD270B87C019A792F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +241,7 @@
 					F1FEC69A1E93212C008D1CDC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7GN223MG66;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,21 +269,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1FEC6A91E93212D008D1CDC /* LaunchScreen.storyboard in Resources */,
+				F1D7BAD31EAF72280036FBC2 /* menu icon_04.png in Resources */,
+				F1FEC6CE1E934354008D1CDC /* icon in Resources */,
+				F1FEC6D01E934354008D1CDC /* img_2.png in Resources */,
+				F1D7BAD11EAF72280036FBC2 /* menu icon_02.png in Resources */,
 				F1FEC6A61E93212D008D1CDC /* Assets.xcassets in Resources */,
+				F1FEC6CF1E934354008D1CDC /* img_1.png in Resources */,
+				F1D7BAD01EAF72280036FBC2 /* menu icon_01.png in Resources */,
+				F1D7BAD21EAF72280036FBC2 /* menu icon_03.png in Resources */,
 				F1FEC6A41E93212D008D1CDC /* Main.storyboard in Resources */,
+				F1FEC6D41E9344D1008D1CDC /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8671FB51030D701E574D03E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-creative_beaconApp_IOS_legacy/Pods-creative_beaconApp_IOS_legacy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C94EAC5AD270B87C019A792F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-creative_beaconApp_IOS_legacy/Pods-creative_beaconApp_IOS_legacy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB1DABE6C1D82D620CF690A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1FEC6971E93212C008D1CDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1FEC6C11E933C34008D1CDC /* JM_WebViewController1.swift in Sources */,
 				F1FEC6A11E93212D008D1CDC /* ViewController.swift in Sources */,
+				F1FEC6C41E933C34008D1CDC /* JM_WebViewController4.swift in Sources */,
+				F1FEC6B81E9322FF008D1CDC /* CE_WebViewController1.swift in Sources */,
+				F11A93591EA45872005FB98F /* TabBarViewController.swift in Sources */,
+				F1FEC6C81E933C3D008D1CDC /* CE_WebViewController2.swift in Sources */,
+				F1FEC6BC1E933B15008D1CDC /* MappingContentsViewController.swift in Sources */,
+				F1FEC6CA1E933C3D008D1CDC /* CE_WebViewController4.swift in Sources */,
+				F1FEC6C31E933C34008D1CDC /* JM_WebViewController3.swift in Sources */,
+				F1FEC6C91E933C3D008D1CDC /* CE_WebViewController3.swift in Sources */,
 				F1FEC69F1E93212C008D1CDC /* AppDelegate.swift in Sources */,
+				F1FEC6BA1E933254008D1CDC /* Main_ViewController.swift in Sources */,
+				F1FEC6C21E933C34008D1CDC /* JM_WebViewController2.swift in Sources */,
+				F1C15FB41EA0B01800BE368C /* CommonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +363,6 @@
 				F1FEC6A31E93212D008D1CDC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F1FEC6A71E93212D008D1CDC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1FEC6A81E93212D008D1CDC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,27 +463,41 @@
 		};
 		F1FEC6AE1E93212D008D1CDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817805418DE04952C10943C5 /* Pods-creative_beaconApp_IOS_legacy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7GN223MG66;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/creative_beaconApp_IOS_legacy/Frameworks",
+				);
 				INFOPLIST_FILE = creative_beaconApp_IOS_legacy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "an.creative-beaconApp-IOS-legacy";
+				PRODUCT_BUNDLE_IDENTIFIER = creative.beaconapp.legacy.IOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F1FEC6AF1E93212D008D1CDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A14C43C0DBD70E80376C9C8 /* Pods-creative_beaconApp_IOS_legacy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7GN223MG66;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/creative_beaconApp_IOS_legacy/Frameworks",
+				);
 				INFOPLIST_FILE = creative_beaconApp_IOS_legacy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "an.creative-beaconApp-IOS-legacy";
+				PRODUCT_BUNDLE_IDENTIFIER = creative.beaconapp.legacy.IOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -302,6 +520,7 @@
 				F1FEC6AF1E93212D008D1CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

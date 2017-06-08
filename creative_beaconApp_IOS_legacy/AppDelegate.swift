@@ -7,17 +7,53 @@
 //
 
 import UIKit
+import Tamra
+//import CoreBluetooth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+//    var bluetoothState: Bool = false
+    
+    /* 운영 */
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let config = TamraConfig(
+            appKey: "68a2479343b54d6b9af8fbe2b5314a92",
+            profile: .PRODUCTION,
+            logLevel: .Debug,
+            simulation: false)
+        
+        Tamra.configure(config)
+        
+        sleep(3)
+        
         return true
     }
+    
+    
+//    /* 개발 */
+//    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+//        
+//        let config = TamraConfig(
+//            appKey: "5fce91eb8bf14075a54d2303503274f1",
+//            profile: .TEST,
+//            logLevel: .Debug,
+//            simulation: true)
+//        
+//        Tamra.configure(config)
+//        
+//        sleep(3)
+//        
+//        return true
+//    }
+    
+
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+//        // Override point for customization after application launch.
+//        return true
+//    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
